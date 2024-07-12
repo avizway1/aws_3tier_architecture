@@ -138,3 +138,5 @@ chmod -R 755 /home/ec2-user
 sudo chkconfig nginx on
 ```
 ```
+
+**Generate an ACM certificate and Add A record with CNAME record then you can access application with domain name securely with "https" protocol.**
