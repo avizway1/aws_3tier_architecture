@@ -62,7 +62,7 @@ Update the `**application-code/app-tier/DbConfig.js**` file with your database c
 Install Node.js and PM2:
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/avizway1/aws_3tier_architecture/main/install.sh | bash
 source ~/.bashrc
 
 nvm install 16
@@ -110,7 +110,7 @@ internal-app-alb-574972862.ap-south-1.elb.amazonaws.com
 Install Node.js and Nginx on the web tier:
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/avizway1/aws_3tier_architecture/main/install.sh | bash
 source ~/.bashrc
 nvm install 16
 nvm use 16
