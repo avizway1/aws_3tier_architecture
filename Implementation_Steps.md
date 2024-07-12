@@ -13,7 +13,7 @@
 Download the code from the Git repository:
 
 ```bash
-git clone https://github.com/aws-samples/aws-three-tier-web-architecture-workshop.git
+git clone https://github.com/avizway1/aws_3tier_architecture.git
 ```
 
 ## App Server Setup. Launch an ec2 instance in APP subnet of Custom VPC
