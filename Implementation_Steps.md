@@ -4,7 +4,7 @@
 # Setup Instructions
 
 ## Clone the Git Repository
-
+```
 Download the code from the Git repository:
 
 ```bash
