@@ -8,14 +8,7 @@
 
 - **Database Server**: This is the back-end part that stores all the data for the application. It uses databases like MySQL or PostgreSQL to keep track of information.
 
-Looking for video, here is the channel link: 
-
-
-[![Visit my YouTube Channel](images/youtube-thumbnail.png)](https://www.youtube.com/@avizway)
-
-Or visit via the badge:
-
-[![YouTube Channel](https://img.shields.io/badge/YouTube-Channel-red?logo=youtube&style=flat-square)](https://www.youtube.com/@avizway)
+Looking for more videos on AWS and DevOps follow me on youtube here [![YouTube Channel](https://img.shields.io/badge/YouTube-Channel-red?logo=youtube&style=flat-square)](https://www.youtube.com/@avizway)
 
 
 
