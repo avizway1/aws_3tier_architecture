@@ -2,16 +2,18 @@
 
 ```markdown
 # Setup Instructions
+```
+
+**make sure you use your S3 bucket to store code and copy to webservers**
 
 ## Clone the Git Repository
-```
 Download the code from the Git repository:
 
 ```bash
 git clone https://github.com/aws-samples/aws-three-tier-web-architecture-workshop.git
 ```
 
-## App Server Setup
+## App Server Setup. Launch an ec2 instance in APP subnet of Custom VPC
 
 ### Install MySQL
 
@@ -23,7 +25,7 @@ sudo yum install mysql -y
 
 ### Configure MySQL Database
 
-Connect to the database and perform basic configuration:
+Connect to the database and perform basic configuration: Replace below info with your DB information
 
 ```bash
 mysql -h mydb.cfpgnjehw330.ap-south-1.rds.amazonaws.com -u admin -p
@@ -48,9 +50,9 @@ INSERT INTO transactions (amount, description) VALUES ('400', 'groceries');
 SELECT * FROM transactions;
 ```
 
-### Update Application Configuration
+### Update Application Configuration to with DB information
 
-Update the `application-code/app-tier/DbConfig.js` file with your database credentials.
+Update the `**application-code/app-tier/DbConfig.js**` file with your database credentials.
 
 ### Install and Configure Node.js and PM2
 
@@ -92,15 +94,15 @@ It should return: `This is the health check`.
 
 ## Internal Load Balancer
 
-Create an internal load balancer and update the Nginx configuration with the internal load balancer IP:
+Create an internal load balancer and update the Nginx configuration with the internal load balancer IP. 
 
 ```text
 internal-app-alb-574972862.ap-south-1.elb.amazonaws.com
 ```
 
-## Launch Web-Tier EC2 Instance
+## Launch Web-Tier EC2 Instance in Web Subnets we have in Custom VPC
 
-### Web Tier Installation
+### Web Tier Installation. 
 
 Install Node.js and Nginx on the web tier:
 
@@ -136,5 +138,3 @@ chmod -R 755 /home/ec2-user
 sudo chkconfig nginx on
 ```
 ```
-
-This Markdown file provides a comprehensive description of each command and step involved in setting up and configuring the three-tier web architecture.
