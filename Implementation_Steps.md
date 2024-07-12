@@ -16,7 +16,7 @@ Download the code from the Git repository:
 git clone https://github.com/avizway1/aws_3tier_architecture.git
 ```
 
-## App Server Setup. Launch an ec2 instance in APP subnet of Custom VPC
+## App Server Setup: Launch an ec2 instance in APP subnet of Custom VPC
 
 ### Install MySQL
 
@@ -103,7 +103,7 @@ Create an internal load balancer and update the Nginx configuration with the int
 internal-app-alb-574972862.ap-south-1.elb.amazonaws.com
 ```
 
-## Launch Web-Tier EC2 Instance in Web Subnets we have in Custom VPC
+## Web Tier Setup: Launch EC2 Instance in Web Subnets we have created in Custom VPC
 
 ### Web Tier Installation. 
 
