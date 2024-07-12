@@ -1,5 +1,9 @@
 ## Three-Tier Web Architecture: Step-by-Step Process
 
+
+![Uploading 3tier.png…]()
+
+
 ### Overview
 In this architecture, we have three main layers:
 1. **Web Tier**: Handles client requests and serves the front-end website.
