@@ -4,7 +4,7 @@
 # Setup Instructions
 ```
 
-![Three-Tier Architecture](https://static.us-east-1.prod.workshops.aws/public/deeaf148-5f5f-4eac-ae36-a029faa8e4ba/static/introduction/3TierArch.png))
+![Three-Tier Architecture](https://static.us-east-1.prod.workshops.aws/public/deeaf148-5f5f-4eac-ae36-a029faa8e4ba/static/introduction/3TierArch.png)
 
 
 **make sure you use your S3 bucket to store code and copy to webservers**
